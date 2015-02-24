@@ -49,6 +49,16 @@
         </form>
       </div>
     </div>
+    <div class="row permission">
+      <div class="col-md-6">
+        <h2>Permission Slips</h2>
+        <ul>
+          <li ng-repeat="item in studentsWithPermission">
+            {{item.name}}
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 </html>
